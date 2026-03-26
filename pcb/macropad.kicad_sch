@@ -860,7 +860,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:WS2812B"
+		(symbol "LED:SK6812MINI-E"
 			(pin_names
 				(offset 0.254)
 			)
@@ -880,7 +880,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "WS2812B"
+			(property "Value" "SK6812MINI-E"
 				(at 1.27 -5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -891,7 +891,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -903,7 +903,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
 				(at 2.54 -9.525 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -937,7 +937,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+			(property "ki_fp_filters" "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -948,7 +948,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B_0_0"
+			(symbol "SK6812MINI-E_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -958,7 +958,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B_0_1"
+			(symbol "SK6812MINI-E_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -1055,11 +1055,11 @@
 					)
 				)
 			)
-			(symbol "WS2812B_1_1"
+			(symbol "SK6812MINI-E_1_1"
 				(pin power_in line
-					(at 0 7.62 270)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "VDD"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1074,10 +1074,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "DOUT"
+					(name "DIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1093,9 +1093,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at 0 7.62 270)
 					(length 2.54)
-					(name "VSS"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1110,10 +1110,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 0 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "DIN"
+					(name "DOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3775,7 +3775,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6812MINI-E")
 		(at 228.6 74.93 90)
 		(unit 1)
 		(body_style 1)
@@ -3806,7 +3806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Hackpad:SK6812MINI-E_fixed"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 236.22 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3818,7 +3818,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
 			(at 238.125 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4418,7 +4418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6812MINI-E")
 		(at 228.6 27.94 90)
 		(unit 1)
 		(body_style 1)
@@ -4449,7 +4449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Hackpad:SK6812MINI-E_fixed"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 236.22 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -4461,7 +4461,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
 			(at 238.125 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -4846,7 +4846,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6812MINI-E")
 		(at 228.6 52.07 90)
 		(unit 1)
 		(body_style 1)
@@ -4877,7 +4877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Hackpad:SK6812MINI-E_fixed"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 236.22 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4889,7 +4889,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
 			(at 238.125 49.53 0)
 			(hide yes)
 			(show_name no)
