@@ -1,2 +1,3 @@
 macropad-backups/
 .history/
+*.lck
