@@ -1,0 +1,14 @@
+#pragma once
+
+#define ENCODER_A_PINS { GP27 }
+#define ENCODER_B_PINS { GP28 }
+
+#define WS2812_DI_PIN GP3
+#define RGBLIGHT_LED_COUNT 8
+
+#define RGBLIGHT_EFFECTS
+
+#define RGBLIGHT_LIMIT_VAL 120
+#define RGBLIGHT_SLEEP
+
+#define OLED_DRIVER_ENABLE
