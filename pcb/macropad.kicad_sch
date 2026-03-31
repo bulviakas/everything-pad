@@ -2256,6 +2256,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 92.71) (xy 132.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139307ee-f991-4ac2-bbd1-4a6d3f51fd6a")
+	)
+	(wire
+		(pts
 			(xy 233.68 125.73) (xy 214.63 125.73)
 		)
 		(stroke
@@ -2316,6 +2326,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 105.41) (xy 127 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f05ad8-9cb3-4ea1-8db3-5dd2375eb1b4")
+	)
+	(wire
+		(pts
 			(xy 125.73 80.01) (xy 125.73 81.28)
 		)
 		(stroke
@@ -2323,6 +2343,16 @@
 			(type default)
 		)
 		(uuid "264976e7-31dc-4238-bd6e-3d7f3d2bff30")
+	)
+	(wire
+		(pts
+			(xy 132.08 92.71) (xy 132.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e1fb3a-9f9b-4a0e-a85a-ab0101d43d28")
 	)
 	(wire
 		(pts
@@ -2356,6 +2386,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 130.81) (xy 113.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f8e0a8-9d1c-46e5-b9b2-0fc8e75120c2")
+	)
+	(wire
+		(pts
 			(xy 214.63 109.22) (xy 214.63 93.98)
 		)
 		(stroke
@@ -2376,16 +2416,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 100.33) (xy 100.33 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4135991b-847a-45c0-8303-8a1982d6a3d6")
-	)
-	(wire
-		(pts
 			(xy 96.52 80.01) (xy 96.52 100.33)
 		)
 		(stroke
@@ -2403,6 +2433,16 @@
 			(type default)
 		)
 		(uuid "478553c3-122b-48fb-994e-0bb88ddbcd05")
+	)
+	(wire
+		(pts
+			(xy 113.03 115.57) (xy 135.89 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490f23ef-1363-46eb-99b7-d2581ef2b378")
 	)
 	(wire
 		(pts
@@ -2546,6 +2586,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 123.19) (xy 111.76 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dbfc2f5-cdcd-45c9-823b-22705e040213")
+	)
+	(wire
+		(pts
 			(xy 214.63 109.22) (xy 233.68 109.22)
 		)
 		(stroke
@@ -2576,7 +2626,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 109.22) (xy 135.89 109.22)
+			(xy 111.76 130.81) (xy 113.03 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2663,6 +2713,16 @@
 			(type default)
 		)
 		(uuid "8da1d4cc-40d1-42ba-a143-9a7716755aeb")
+	)
+	(wire
+		(pts
+			(xy 127 105.41) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99698dad-13d4-42ea-80f6-3808aeae7e8f")
 	)
 	(wire
 		(pts
@@ -2796,6 +2856,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 92.71) (xy 100.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e6e677-c6aa-4e27-9a30-da358200cfc3")
+	)
+	(wire
+		(pts
 			(xy 214.63 49.53) (xy 233.68 49.53)
 		)
 		(stroke
@@ -2906,6 +2976,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 96.52) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1645a2-6b6a-4399-ae22-a67862f63db0")
+	)
+	(wire
+		(pts
 			(xy 241.3 118.11) (xy 241.3 116.84)
 		)
 		(stroke
@@ -2933,16 +3013,6 @@
 			(type default)
 		)
 		(uuid "f049814d-b6f3-450b-aae6-d5ec5c6436ad")
-	)
-	(wire
-		(pts
-			(xy 100.33 96.52) (xy 111.76 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7c55574-df53-4c73-a321-169e02633e34")
 	)
 	(wire
 		(pts
@@ -3048,7 +3118,7 @@
 	)
 	(global_label "Row 3"
 		(shape input)
-		(at 135.89 109.22 0)
+		(at 135.89 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3058,7 +3128,7 @@
 		)
 		(uuid "25fc7b8e-8e3b-43c1-98f9-49654534e141")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.8018 109.22 0)
+			(at 144.8018 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3094,7 +3164,7 @@
 			)
 		)
 	)
-	(global_label "S1"
+	(global_label "EN_B"
 		(shape input)
 		(at 139.7 34.29 180)
 		(fields_autoplaced yes)
@@ -3106,7 +3176,7 @@
 		)
 		(uuid "2ae0488c-2618-4ac4-8556-b40fa93dfc22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.2958 34.29 0)
+			(at 131.9977 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3118,19 +3188,19 @@
 			)
 		)
 	)
-	(global_label "S1"
+	(global_label "EN_A"
 		(shape input)
-		(at 127 96.52 0)
+		(at 111.76 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2ee67cbd-8f3a-477b-9574-44392969d55b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4042 96.52 0)
+			(at 104.2391 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3138,7 +3208,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -3190,19 +3260,19 @@
 			)
 		)
 	)
-	(global_label "S2"
+	(global_label "EN_B"
 		(shape input)
-		(at 127 101.6 0)
+		(at 111.76 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "44ecc0d2-07a0-4731-bbca-6e378a3b9002")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4042 101.6 0)
+			(at 104.0577 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3210,7 +3280,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -3262,7 +3332,7 @@
 			)
 		)
 	)
-	(global_label "S2"
+	(global_label "EN_A"
 		(shape input)
 		(at 139.7 30.48 180)
 		(fields_autoplaced yes)
@@ -3274,7 +3344,7 @@
 		)
 		(uuid "65a73cc5-f711-47a4-b584-640f6ffcb904")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.2958 30.48 0)
+			(at 132.1791 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3533,7 +3603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cherry-MX:MX_SK6812MINI-E"
+		(property "Footprint" "Libraries:MX_SK6812MINI-E"
 			(at 233.68 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4255,7 +4325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cherry-MX:MX_SK6812MINI-E"
+		(property "Footprint" "Libraries:MX_SK6812MINI-E"
 			(at 233.68 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4343,7 +4413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cherry-MX:MX_SK6812MINI-E"
+		(property "Footprint" "Libraries:MX_SK6812MINI-E"
 			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4796,7 +4866,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 111.76 105.41 90)
+		(at 111.76 127 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4807,7 +4877,7 @@
 		(fields_autoplaced yes)
 		(uuid "690a232e-46ef-40fd-b56e-5cc01fabfbcc")
 		(property "Reference" "D10"
-			(at 114.3 104.1399 90)
+			(at 114.3 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4818,7 +4888,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 114.3 106.6799 90)
+			(at 114.3 128.2699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4829,7 +4899,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 111.76 105.41 0)
+			(at 111.76 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4840,7 +4910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 105.41 0)
+			(at 111.76 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4851,7 +4921,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 111.76 105.41 0)
+			(at 111.76 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4862,7 +4932,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 111.76 105.41 0)
+			(at 111.76 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4873,7 +4943,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 111.76 105.41 0)
+			(at 111.76 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5009,7 +5079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cherry-MX:MX_SK6812MINI-E"
+		(property "Footprint" "Libraries:MX_SK6812MINI-E"
 			(at 233.68 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5177,7 +5247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cherry-MX:MX_SK6812MINI-E"
+		(property "Footprint" "Libraries:MX_SK6812MINI-E"
 			(at 233.68 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5345,7 +5415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "Libraries:SK6812MINI-E_fixed"
 			(at 233.68 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -5773,7 +5843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "Libraries:SK6812MINI-E_fixed"
 			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6135,7 +6205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cherry-MX:MX_SK6812MINI-E"
+		(property "Footprint" "Libraries:MX_SK6812MINI-E"
 			(at 233.68 127 0)
 			(hide yes)
 			(show_name no)
