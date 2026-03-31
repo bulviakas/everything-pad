@@ -50,6 +50,8 @@ The colour of the RBG backlight shows the currently active mode (SSC - Blue, App
 
 ## BOM
  A list of everything used to make this masterpiece:
+ * 1x Seeed XIAO RP2040
+ * 7x through-hole 1N4148 Diodes
  * 6x MX-Style switches
  * 1x EC11 Rotary encoder
  * 1x 0.91 inch OLED display (GND-VCC-SCL-SDA)
@@ -57,4 +59,6 @@ The colour of the RBG backlight shows the currently active mode (SSC - Blue, App
  * 8x SK6812 MINI-E LEDs
  * 2x M3x16mm screws
  * 2x M3x5mx4mm heatset inserts
+ * 1x case (2 printed parts)
+ * 1x printed knob for the encoder
  * Some joy and whimsy~
